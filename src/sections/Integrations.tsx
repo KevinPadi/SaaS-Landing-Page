@@ -5,7 +5,6 @@ import framerIcon from "@/assets/images/framer-logo.svg";
 import githubIcon from "@/assets/images/github-logo.svg";
 import notionIcon from "@/assets/images/notion-logo.svg";
 import relumeIcon from "@/assets/images/relume-logo.svg";
-import Image from "next/image";
 import IntegrationsColumns from "@/components/IntegrationsColumns";
 
 const integrations = [
@@ -64,6 +63,7 @@ export default function Integrations() {
               <IntegrationsColumns
                 integrations={integrations.slice().reverse()}
                 className="hidden md:flex"
+                reverse
               />
             </div>
           </div>

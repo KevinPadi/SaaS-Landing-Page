@@ -1,6 +1,5 @@
 "use client";
 
-import Tag from "@/components/Tag";
 import { AnimationPlaybackControls, motion, useAnimate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
